@@ -275,7 +275,7 @@ section .header {
     .portrait img {
         width: 300px;
         height: 300px;
-        margin-left: 4rem;
+        margin-left: 0rem;
         border-radius: 50%;
         box-shadow: 0 0 0 2px aquamarine;
     }
