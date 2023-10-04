@@ -1,48 +1,120 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#">JAKUB BONCZYK</a>
+      </div>
+
+      <ul class="navlinks">
+        <li id="aboutMe" class="link"><a href="#">About me</a></li>
+        <li id="myProjects" class="link"><a href="#">My Projects</a></li>
+        <li id="contact" class="link"><a href="#">Contact</a></li>
+        <li id="contact" class="link"><a href="polish.html">Polish</a></li>
+      </ul>
+    </nav>
+    <header class="container">
+      <div class="content">
+        <span class="shadow"></span>
+        <span class="shadow"></span>
+        <h1>web <span>designer</span></h1>
+        <h4>
+          Programming & Sales Trainer | HTML & CSS & JavaScript | CS Student
+        </h4>
+        <p>
+          As a passionate educator and trainer, I wear multiple hats—be it as a
+          front-end developer, a programming mentor for the younger generation,
+          or a sales trainer in a prominent Call Center corporation. My
+          expertise ranges from web design and fundamental programming to
+          crafting innovative training methodologies. Whether I'm imparting tech
+          wisdom or honing sales strategies, teamwork remains at the core of my
+          professional ethos.
+        </p>
+      </div>
+      <div class="portrait">
+        <img src="384329889_6924092557642878_7817624847985581716_n.jpg" />
+      </div>
+    </header>
+
+    <section class="container">
+      <span class="shadow2"></span>
+      <h2 class="header">About me</h2>
+      <div class="information">
+        <div class="tile">
+          <h4>UNIQUE PEOPLE</h4>
+          <p>
+            In my role as a Sales Trainer for a leading Call Center corporation,
+            I embody a multifaceted set of responsibilities ranging from
+            mentoring and supervision to digital content creation and the
+            development of innovative training methodologies. My primary
+            strength lies in fostering and enhancing teamwork, ensuring that all
+            members synergize their skills for optimal results..
+          </p>
+        </div>
+        <div class="tile">
+          <h4>Coding Giants</h4>
+          <p>
+            As a seasoned programming instructor, I cater to a diverse age range
+            of 7 to 18-year-olds, imparting critical IT knowledge to empower the
+            next generation of tech enthusiasts. My expertise lies in the
+            elements of web design, encompassing HTML, CSS, and JS.
+            Additionally, I adeptly guide students through the basics of
+            programming, utilizing tools and platforms like C++, Scratch,
+            Minecraft Education, and App Inventor and many others...
+          </p>
+        </div>
+        <div class="tile">
+          <h4>Freelance Front-End Developer | CS Student</h4>
+          <p>
+            An ambitious and dedicated student, I have balanced my academic
+            pursuits with a burgeoning freelance career in front-end
+            development. With a passion for creating intuitive and visually
+            appealing interfaces, I've consistently delivered top-tier web
+            solutions for a variety of clients. My strong organizational skills
+            and a keen eye for detail ensure that I not only meet, but often
+            exceed client expectations. Always eager to take on new challenges
+            and further my expertise, I am a valuable addition to any team or
+            project.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <span class="shadow3"></span>
+      <h2 class="header">My projects</h2>
+      <ul>
+        <li class="projects">JS Calculator</li>
+        <li class="projects">Rock, Paper, Scissors</li>
+        <li class="projects">Snake Game</li>
+        <li class="projects">Weather App</li>
+        <li class="projects">To Do list...</li>
+      </ul>
+    </section>
+    <section class="container">
+      <h2 class="header">Contact</h2>
+      <span class="shadow4"></span>
+      <div class="socialmedia">
+        <a href="https://www.facebook.com/jakub.bonczyk/"
+          ><img src="facebook-7-xxl.png"
+        /></a>
+        <a href="https://github.com/jakubbonczyk"
+          ><img src="github-9-xxl.png"
+        /></a>
+        <a href="mailto:jakubbonczyk@icloud.com"
+          ><img src="message-xxl.png"
+        /></a>
+        <a href="https://www.linkedin.com/in/jakub-bonczyk-5b079423b"
+          ><img src="linkedin-xxl.png"
+        /></a>
+      </div>
+    </section>
     <script src="script.js"></script>
-</head>
-
-<body>
-    <div class="navbar">
-        <div class="logo">
-            <a href="#">JAKUB BONCZYK</a>
-        </div>
-        <div id="buttons">
-            <button class="navbut">MOJE PROJEKTY</button>
-            <button class="navbut">O MNIE</button>
-            <button class="navbut">KONTAKT</button>
-            <a href="https://www.linkedin.com/in/jakub-bonczyk-5b079423b"><img src="linkedin-xxl.png"></a>
-        </div>
-    </div>
-    <div class="container">
-        <div id="designer">
-            <div class="firstline">
-                <p>web</p>
-            </div>
-            <div class="secondline">
-                <p>designer</p>
-            </div>
-        </div>
-        <div class="portrait">
-            <img src="384329889_6924092557642878_7817624847985581716_n.jpg">
-        </div>
-        <div class="blank" style="clear:both"></div>
-        <div class="description">
-            <a>Programing & Sales Trainer | HTML & CSS & JavaScript | IT Student </a>
-        </div>
-        <div class="socialmedia">
-            <a href="https://www.facebook.com/jakub.bonczyk/"><img src="facebook-7-xxl.png"></a>
-            <a href="https://github.com/jakubbonczyk"><img src="github-9-xxl.png"></a>
-            <a href="mailto:jakubbonczyk@icloud.com"><img src="message-xxl.png"></a>
-        </div>
-    </div>
-</body>
-
+  </body>
 </html>
