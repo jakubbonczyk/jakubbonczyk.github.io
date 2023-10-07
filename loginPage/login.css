@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@keyframes slideUp {
+    from {
+        transform: translateX(-400px);
+    }
+
+    to {
+
+        transform: translateX(0);
+    }
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(landscape-8259156_1920.jpg);
+    background-size: cover;
+}
+
+.box {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #ccc;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px;
+    animation: slideUp 1s ease-in-out both;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.input-wrapper span {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-field{
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+}
+
+.resetpassword{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.resetpassword a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.resetpassword a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: right 0.3s;
+}
+
+.resetpassword a:hover::before {
+    right: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: width 0.3s;
+}
+
+button:hover {
+    width: 300px;
+    
+}
+
+.register {
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: right 0.3s;
+}
+
+.register a:hover::before {
+    right: 0;
+}
